@@ -34,4 +34,10 @@ Then run the next command to start the dockers containers, making sure you don't
 sail up -d
 ```
 
+and 
+
+```bash
+sail php artisan migrate
+```
+
 If none has occurred, simply access CRUD by typing in your browser `http://localhost`
